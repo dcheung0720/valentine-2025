@@ -2,7 +2,7 @@ import './App.css';
 import Selection from './components/Selection';
 import { useState } from 'react';
 import Entrance from './components/Entrance';
-import Exit from './components/Exist';
+import Exit from './components/Exit';
 
 function App() {
 

@@ -16,7 +16,7 @@ const Selection = ({title, options, setCarousel}) =>{
                 {options.map(option =>  
                     <div style={{margin: "10px",}}> 
                         <div>
-                            <Image src={`valentine-2025/images/${option}.jpg`} style = {{width: "150px", height: "150px"}}  />
+                            <Image src={`/valentine-2025/images/${option}.jpg`} style = {{width: "150px", height: "150px"}}  />
                         </div>
                         <div>
                             <Form.Check

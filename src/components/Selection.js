@@ -10,7 +10,7 @@ const Selection = ({title, options, setCarousel}) =>{
     const [optionSelected, setOptionSelected] = useState([]);
 
     return (
-        <div style = {{width: "1200px", border: "5px solid black", borderRadius: "10px", textAlign: "center", marginBottom: "150px", alignItems: "center"}}>
+        <div style = {{width: "1200px", borderRadius: "10px", textAlign: "center", marginBottom: "150px", alignItems: "center"}}>
             <h2 style={{marginTop: "30px"}}>{title}</h2>
             <div style = {{display: "flex", justifyContent: "center", flexWrap: "wrap", alignItems: "center", alignContent: "center"}}>
                 {options.map(option =>  

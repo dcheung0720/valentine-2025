@@ -1,7 +1,7 @@
 {
   "name": "valentine-2025",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://dcheung0720.github.io/valentine-2025",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "web-vitals": "^4.2.4"
   }
 }
